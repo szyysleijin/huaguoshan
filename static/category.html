@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>category</title>
+		<link rel="stylesheet" href="css/commonality.css">
+		<link rel="stylesheet" href="css/product.css">
+		<link rel="stylesheet" href="css/index.css">
+		<style>
+			.all{
+				background: #F5F1EE;
+			}
+			.allnew{
+				width:1190px;
+				margin:0 auto;
+				padding-top:10px;
+			}
+			.allnew p{
+				margin-bottom: 10px;
+			}
+			.page{
+				float:right;
+				margin-right:100px;
+				margin-bottom:5px;
+
+			}
+			.page button{
+				width:70px;
+				height:35px;
+				line-height: 35px;
+				background:#77BE22;
+				font-size:14px;
+				font-weight:bold;
+				color:#fff;
+				border:0;
+				border-radius: 5px;
+
+			}
+			.page a{
+				margin-left:3px;
+				width:30px;
+				height:30px;
+				line-height: 30px;
+				display: inline-block;
+				border:1px solid #ccc;
+				text-align: center;
+				border-radius:5px;
+				font-weight:bold
+			}
+			.active{
+				background:#015A9E;
+				color:#77BE22;
+			}
+			.allnew>p{
+				padding-left:23px;
+			}
+			.orderbyasc,.orderbydesc{
+				 margin-left:23px;
+				border:1px solid #ccc;
+				background: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<header></header>
+			<div class='all'>
+				<div class="allnew">
+					<p><a href="">首页</a> >商品详情>><span></span></p>
+					<a href="" class='orderbyasc'>销量按升序排序</a>
+					<a href="" class='orderbydesc'>销量按降序排序</a>
+					<!-- 商品 -->
+					<div class="recpall"></div>
+					<!-- 分页 -->
+					<div class="page"></div>
+				</div>
+			</div>
+		<footer></footer>
+		<script src='js/jquery-1.11.3.js'></script>
+		<script src='js/header.js'></script>
+		<script src='js/footer.js'></script>
+		<script src='js/category.js'></script>
+	</body>
+</html>

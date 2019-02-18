@@ -1,0 +1,174 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fic{
+  width:1190px;
+  margin:0 auto;
+  position: relative;
+}
+.bannerright{
+    position: absolute;
+    top: -4px;
+    right: -1px;
+}
+.fic .recp p:first-child a{
+  display: inline-block;
+  width:128px;
+  text-align: center;
+  font-weight: bold;
+  color:#fff;
+  background:#77BE22;
+  height:25px;
+  line-height: 25px;
+}
+.bannerright .recp span{
+  margin-bottom: 0;
+}
+.bannerright .recp{
+  padding-bottom:0px;
+  height:389px;
+  z-index: 5;
+  position: relative;
+}
+.fic .recp p:first-child a:last-child{
+  margin-left:3px;
+  background: #A1A1A1;
+}
+.bannerright .recp img:last-child{
+    width: 310px;
+    height:17px;
+    margin-left: -25px;
+    position: absolute;
+    bottom:-17px;
+}
+.content{
+  background:#F5F1EE;
+}
+.recommend{
+  margin:0 auto;
+  width:1190px;
+  background:#F0E4D4;
+  padding-left:10px;
+  position:relative;
+  margin-top:40px;
+  padding-bottom:20px;
+	max-height:930px;
+	overflow: hidden;
+}
+.recp{
+  width:260px;
+  margin-left:15px;
+  padding:10px;
+  background:#fff;
+  float:left;
+	margin-top:5px;
+	margin-bottom:15px;
+
+}
+.recp img{
+  width:260px;
+  height:260px;
+}
+.recommend h1{
+  font-size:24px;
+  margin-top:16px;
+  margin-bottom:16px;
+  color:#C17100;
+  margin-left:15px;
+}
+.recommend h1 span  {
+  font-size:14px;
+  font-weight: 300;
+}
+.recp b{
+	overflow: hidden;
+	height:19px;
+  font-size:14px;
+  color:#000;
+  margin-top:10px;
+  display: inline-block;
+}
+.recp>span  {
+  display: inline-block;
+  margin-bottom:5px;
+	height:16px;
+	overflow: hidden;
+}
+.recp h2{
+  color:#C20000;
+  font-size:18px;
+  margin-top:5px;
+}
+.recp p {
+  font-size:12px;
+  color:#777;
+}
+.recp p span{
+  color:#89BE82;
+}
+.recp p button  {
+  background: #E23F50;
+  border:0;
+  margin-left:65px;
+  width:100px;
+  height:24px;
+  line-height: 24px;
+  color:#fff;
+}
+.contentright{
+  float:left;
+  width:290px;
+  position: absolute;
+  right:0px;
+  top:0;
+  border-top:1px solid #ccc;
+  border-right:1px solid #ccc;
+  height:480px;
+  background:#fff;
+}
+.contentright img{
+  border-bottom:1px dashed #ccc;
+}
+.content2f h1{
+  font-size:20px;
+  color:#333534;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

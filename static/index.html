@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>易果生鲜Yiguo网_全球精选_生鲜果蔬 品质食材_易果网</title>
+    <link rel="stylesheet" href="css/commonality.css">
+    <link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+    <!-- 页头 -->
+    <header></header>
+    <!-- 商品详情 -->
+    <div class="fic">
+      <div class='bannerright'>
+      	<div class='recp'>
+      		<p><a href="#">时令推荐</a><a href="#">即将开始</a></p>
+      		<img src="img/a41a2d5c3b15f81816ed83eb5bc323e2.jpg" alt="">
+      		<b>39号经典绿奇异果 24个装</b>
+      		<span>营养密度极高的水果</span><br>
+      		<!-- <s>￥100.00</s> -->
+      		<h2>￥85</h2>
+      		<p><span>3969</span>人已购买 <button>加入购物车</button></p>
+          <img src="img/sea_buttom.jpg" alt="">
+      	</div>
+      </div>
+    </div>
+    <div class='banner'>
+      <img src="img/banner1.jpg" alt="">
+    </div>
+    <div class='content'>
+      <div class='recommend tj'>
+        <h1 class='one'>花果山推荐 <span>尽享热卖水果</span></h1>
+        
+      </div>
+      
+      <!-- 2F -->
+      <div class=''>
+        <div class='recommend qiyiguo'>
+        	<h1>奇异果 <span>尽享热卖水果</span></h1>
+        	
+        </div>
+      </div>
+      
+      <!-- 3F -->
+      <div class=''>
+      	<div class='recommend mg'>
+      		<h1>芒里偷闲 <span>尽享热卖水果</span></h1>
+      		
+      	</div>
+      </div>
+      
+      <!-- 4F -->
+      <div class=''>
+      	<div class='recommend cz'>
+      		<h1>柑橙桔柠 <span>尽享热卖水果</span></h1>
+      	
+      	</div>
+      </div>
+				
+      <!-- 5F -->
+      <div class=''>
+      	<div class='recommend pl' >
+      		<h1> 苹果&nbsp;梨 <span>尽享热卖水果</span></h1>
+      	
+      	</div>
+      </div>
+      
+      <!-- 6F -->
+      <div class=''>
+      	<div class='recommend ka'>
+      		<h1>礼品卡 <span>尽享热卖水果</span></h1>
+      		
+      	</div>
+      </div>
+      
+      <!-- 7F -->
+<!--      <div class=''>
+      	<div class='recommend'>
+      		<h1>花果山推荐 <span>尽享热卖水果</span></h1>
+      		
+      	</div> -->
+      </div>
+      
+      <!-- 8F -->
+ <!--     <div class=''>
+      	<div class='recommend'>
+      		<h1>花果山推荐 <span>尽享热卖水果</span></h1>
+      		
+      	</div>
+      </div> -->
+    </div>
+    <!-- 底部 -->
+    <footer></footer>
+    <script src='js/jquery-1.11.3.js'></script>
+    <script src='js/index.js'></script>
+		<script src='js/header.js'></script>
+		<script src='js/footer.js'></script>
+		<script>
+			var banner = [
+				'img/banner1.jpg',
+				'img/banner2.jpg',
+				'img/banner3.jpg'
+			]
+			var i=0;
+			setInterval(function(){
+// 				i++;
+// 				$('.banner img').attr('src',`banner[0]`)
+					i++;
+					if(i==3)i=0
+					console.log(i)
+				$('.banner img').attr('src',banner[i])
+				
+				
+			},2000)
+		</script>
+	</body>
+</html>
